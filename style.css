@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffcfc;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(32, 114, 223);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.991);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.alumni-item {
+    padding: 10px;
+    border-bottom: 1px solid #031829;
+    transition: background-color 0.3s ease; /* Transisi untuk efek hover */
+}
+
+.alumni-item:hover {
+    background-color: #65b2f0; /* Warna latar belakang saat hover */
+}
